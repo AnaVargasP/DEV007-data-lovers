@@ -43,9 +43,6 @@ main {
   font-size: x-large;
   background: #fff;
   border-radius: 10px;
-  cursor: url("https://cur.cursors-4u.net/sports/images5/spo406.gif"), url("https://cur.cursors-4u.net/sports/images4/spo394.gif"), auto;
-
-
 }
 
 .clase-botonInicio::after {
@@ -115,8 +112,7 @@ main {
   font-size: x-large;
   background: #fff;
   border-radius: 10px;
-  cursor: url("https://cur.cursors-4u.net/sports/images5/spo406.gif"), url("https://cur.cursors-4u.net/sports/images4/spo394.gif"), auto;
-overflow: hidden;
+  overflow: hidden;
   /* Oculta el contenido que desborda el botón */
   white-space: nowrap;
   /* Evita el salto de línea del texto */

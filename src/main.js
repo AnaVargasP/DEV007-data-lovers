@@ -48,20 +48,27 @@ botonInicio.addEventListener("click", () => {
   contenedorAtletasPorPais.innerHTML = "";
 
   // Generar el contenido del div contenidoGeneral para poderlo mostrar cuando hagan click en inicio
-  const contenidoDiv = `<div id="contenidoGeneral" class="contenidoGeneral">
-      <div class="cuarentaDeportes">
-          <img alt="img-principal" class="imagen-principal" src="https://trello.com/1/cards/64544665b229eb83c9d3507f/attachments/64544665b229eb83c9d350a1/previews/64544666b229eb83c9d350ad/download/image.png">
-      </div>
-      <div class="imagen-parrafo">
-        <span class="parrafo">
-          <img alt="img-rio2016" class="img-rio2016" src="https://th.bing.com/th/id/R.070262561158e9c72ff2fa7b0da265b6?rik=QSD7%2byGLzBy%2bdg&riu=http%3a%2f%2fhotsport.rs%2fwp-content%2fuploads%2f2014%2f12%2fRio-2016.jpg&ehk=CoF5O%2bUvhcWVD2Sd6L%2bXrcsCtn1SPt6eIV%2byV4CjuYQ%3d&risl=&pid=ImgRaw&r=0">
-          <br>
-          The 2016 Rio de Janeiro Olympic Games were a global sporting event held in Brazil of
-          August 2016, in which more than 11,000 athletes from 206 countries participated, competing in 42 sports and 306
-          events. They were remembered for their commitment to sustainability and social inclusion, and for the appearance
-          ofnew talents and memorable moments.</span>
-      </div>
-  </div>`;
+  const contenidoDiv = 
+  `<div id="contenidoGeneral" class="contenidoGeneral">
+  <div id="contenidoGeneral" class="contenidoGeneral">
+  <div class="cuarentaDeportes">
+      <img alt="img-principal" class="imagen-principal"
+      src="https://th.bing.com/th/id/R.e8406850c83c52766f79884b6e6bd4fd?rik=ov36GkJaJX%2bXEg&riu=http%3a%2f%2fbellsolympics.weebly.com%2fuploads%2f8%2f7%2f2%2f2%2f87226386%2fh.jpg%3f611&ehk=tLuY8YvGcI37NurUmRZhfFRgt2zQkFBzpzJeppjyQLY%3d&risl=&pid=ImgRaw&r=0">
+  </div>
+  <div class="imagen-parrafo">
+    <span class="parrafo">
+      <img alt="img-rio2016" class="img-rio2016"
+        src="https://th.bing.com/th/id/R.070262561158e9c72ff2fa7b0da265b6?rik=QSD7%2byGLzBy%2bdg&riu=http%3a%2f%2fhotsport.rs%2fwp-content%2fuploads%2f2014%2f12%2fRio-2016.jpg&ehk=CoF5O%2bUvhcWVD2Sd6L%2bXrcsCtn1SPt6eIV%2byV4CjuYQ%3d&risl=&pid=ImgRaw&r=0">
+      <br>
+      The 2016 Rio de Janeiro Olympic Games were a global sporting event held in Brazil of
+      August 2016, in which more than 11,000 athletes from 206 countries participated, competing in 42 sports and
+      306
+      events. They were remembered for their commitment to sustainability and social inclusion, and for the
+      appearance
+      ofnew talents and memorable moments.
+    </span>
+  </div>
+</div>`;
 
   // Insertar el contenido generado en el div contenidoGeneral
   contenidoGeneral.innerHTML = contenidoDiv;
